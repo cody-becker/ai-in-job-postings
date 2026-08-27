@@ -1,0 +1,930 @@
+{
+  "all": {
+    "csv": "https://storage.stapply.ai/jobhive/v1/all.csv",
+    "parquet": "https://storage.stapply.ai/jobhive/v1/all.parquet",
+    "parquet_sha256": "013d5228c74b2aaf058d8000adb62cbc889d683024fa284a82504ce19a1627b3",
+    "parquet_size_bytes": 2254296057,
+    "rows": 4854656,
+    "sha256": "c63e787656d7006b4fe4160f0cf352f5fc57d10c2cd7420cb43ae527c60784bb",
+    "size_bytes": 16549752717
+  },
+  "by_ats": {
+    "amazon": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/amazon/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/amazon/jobs.parquet",
+      "parquet_sha256": "60b52da190d94f68de84dd9601ccdac5addee1f44c773af17c3fe5a0adff1761",
+      "parquet_size_bytes": 16359433,
+      "rows": 33888,
+      "sha256": "89411bf4ddf6132a61e6d59ffe8de19ad41128cf97432cfecbd0f899ee818915",
+      "size_bytes": 245580877
+    },
+    "apple": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/apple/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/apple/jobs.parquet",
+      "parquet_sha256": "9d1b96eeeec51f9849fc7aabecca52d5470a1b40223713824b4de916c4b136b4",
+      "parquet_size_bytes": 3256279,
+      "rows": 4753,
+      "sha256": "e7805ed42796b2ed6ea9d7b3da2c7feea67ee30799991b6bc84b03a12b978d3b",
+      "size_bytes": 15702993
+    },
+    "arbetsformedlingen": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/arbetsformedlingen/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/arbetsformedlingen/jobs.parquet",
+      "parquet_sha256": "65b22dc076b3a80d1a7bd5b67664401ba49e9d83dc272e7c88abc3b6777d2393",
+      "parquet_size_bytes": 22690223,
+      "rows": 24430,
+      "sha256": "51dd02e4fcc032b2dd5558e0fe947236c80e715129e7f1e892fb955e827ea662",
+      "size_bytes": 126348304
+    },
+    "ashby": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/ashby/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/ashby/jobs.parquet",
+      "parquet_sha256": "ac1f58d073fb09680f5327bdaff3b980bb245dbac556ebab4072fa0af7a28e52",
+      "parquet_size_bytes": 52901550,
+      "rows": 53528,
+      "sha256": "3c07f339787a5ecfe71d80cd72b40725590a5fc4fbdb5ab1981d18dec2254354",
+      "size_bytes": 323630252
+    },
+    "avature": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/avature/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/avature/jobs.parquet",
+      "parquet_sha256": "483bbbcdc92ed6e15aef407c96a2d687fedf886f8386ef90947c8175f58c99e4",
+      "parquet_size_bytes": 2078385,
+      "rows": 4431,
+      "sha256": "bcf77861e8c0a1eef10e8fdd936bb3bc209634c72479bf3f3657af04c8e9414e",
+      "size_bytes": 15666455
+    },
+    "bamboohr": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/bamboohr/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/bamboohr/jobs.parquet",
+      "parquet_sha256": "29d2054d98c7105fb78b87ceca5771cdcebbffc416b9047a4b6cb80774a0caec",
+      "parquet_size_bytes": 16916861,
+      "rows": 19805,
+      "sha256": "940f680248d23d8bc5af32201f9ae8b9a248822212fd52604a91da4df20cd74c",
+      "size_bytes": 86550237
+    },
+    "beisen": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/beisen/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/beisen/jobs.parquet",
+      "parquet_sha256": "b62e1d5a73c2f4cb142b661c3048b23c3f73a84f2415db25874c931ef99f358b",
+      "parquet_size_bytes": 13584501,
+      "rows": 72905,
+      "sha256": "16c36c478df96d806a0c96fa1cbf9d702b36924ab6cac6b9db377e2a90df5ec7",
+      "size_bytes": 103455682
+    },
+    "beisen_legacy": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/beisen_legacy/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/beisen_legacy/jobs.parquet",
+      "parquet_sha256": "e99d8575a917d8b251531f13083993a72ba8aace9e0aa63286b81eac03d9c134",
+      "parquet_size_bytes": 474863,
+      "rows": 6461,
+      "sha256": "6fd4d5fc9ddbe9dc1974dbdc01a13fe6e06d7bd7786bf085c039a447ed331600",
+      "size_bytes": 11080880
+    },
+    "breezy": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/breezy/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/breezy/jobs.parquet",
+      "parquet_sha256": "0026573633627c446d95daf0db25a0022c53a13cbead13117f26fceba49d7ef1",
+      "parquet_size_bytes": 14090662,
+      "rows": 31572,
+      "sha256": "4b60492e7e61f2fd7c3c2477741a6377ac285f8cd6452679f56b8baeacdb8bcf",
+      "size_bytes": 102921809
+    },
+    "builtin": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/builtin/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/builtin/jobs.parquet",
+      "parquet_sha256": "066bcb50ae82e03ec8aa63daef27fcbd0e94e09d83e10750dd638d9297a5f78f",
+      "parquet_size_bytes": 97040,
+      "rows": 668,
+      "sha256": "59b39ec7b0b1fec50acdc2c43da814ac2edd1136d130e7e6d46abd4b3876883a",
+      "size_bytes": 304334
+    },
+    "bundesagentur": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/bundesagentur/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/bundesagentur/jobs.parquet",
+      "parquet_sha256": "913174d265bb3819aa2e6badbaf990191677c8b3b68fd11fa02a66d165e826db",
+      "parquet_size_bytes": 49579986,
+      "rows": 108362,
+      "sha256": "de265918a348dc1d28fe1197c50eb56a6aa26f84d9b1194b058d16094b0b8c86",
+      "size_bytes": 213402078
+    },
+    "bytedance": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/bytedance/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/bytedance/jobs.parquet",
+      "parquet_sha256": "9028814d8e59167c50c3c70bdf05cd7f5b153a6c83f10a5a8f8236f0ca0ea1af",
+      "parquet_size_bytes": 805383,
+      "rows": 1216,
+      "sha256": "46124fd8dac70b9e6cd7b1efb6f93bc7886436b7e15bef388a13b28c9188d096",
+      "size_bytes": 4335011
+    },
+    "cornerstone": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/cornerstone/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/cornerstone/jobs.parquet",
+      "parquet_sha256": "2ddcbe75900b2a0c96de4ab4b386cd1f9222347b36f2d22ee4132af4ebb920c6",
+      "parquet_size_bytes": 9224533,
+      "rows": 31241,
+      "sha256": "7d6cfdc401583da28c56be77349fd14b1a1ea59253e4f9954c008dab36d831a2",
+      "size_bytes": 62658215
+    },
+    "darwinbox": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/darwinbox/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/darwinbox/jobs.parquet",
+      "parquet_sha256": "857bd38662bf479fee2a8bc30dfeb2fc19abb07c3f30f6d8d869475c500b27dc",
+      "parquet_size_bytes": 3399204,
+      "rows": 8589,
+      "sha256": "74ed2b56613fd6c40fe9d86f862ea20ba8f90491792c4995fe110f627b5dcba3",
+      "size_bytes": 27825520
+    },
+    "dayforce": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/dayforce/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/dayforce/jobs.parquet",
+      "parquet_sha256": "3ba945d76dc862a554980def7b7a2391f514a3e41d8d3b801a2a723eb0b54674",
+      "parquet_size_bytes": 6824661,
+      "rows": 12178,
+      "sha256": "a5435710024582b5ff5b1adfadd9794df37bb4499049d52b5e075cd6437a89fd",
+      "size_bytes": 67046553
+    },
+    "eightfold": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/eightfold/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/eightfold/jobs.parquet",
+      "parquet_sha256": "8c450461c59508241e6550de1ee6a7b89f8fd17253851b8c9cd1cb10208b1964",
+      "parquet_size_bytes": 7082196,
+      "rows": 9591,
+      "sha256": "fb12361c9319979c17918072c46cd1bdf646d5be1178a239c29cefd9b0a5a49f",
+      "size_bytes": 47690449
+    },
+    "eures": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/eures/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/eures/jobs.parquet",
+      "parquet_sha256": "f0c996376bf3eca8e41b33f655b1a3b0acc0fcf39d6f14a2a4c5436517dff204",
+      "parquet_size_bytes": 758401117,
+      "rows": 1590717,
+      "sha256": "24a25d00978b3fe04bc119a0fdce4c5c73934b07c3cedd7ed1b95d087682499b",
+      "size_bytes": 3688012423
+    },
+    "gem": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/gem/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/gem/jobs.parquet",
+      "parquet_sha256": "c6feee931a5f333bab71bf40819125be500ae643ef5c9a7156c6e700b56e9777",
+      "parquet_size_bytes": 2904600,
+      "rows": 3344,
+      "sha256": "a6a6c8a7bf34641f1a1468d34ff732fe1a594d7200748d692e25d66c71b9faeb",
+      "size_bytes": 15507961
+    },
+    "getonbrd": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/getonbrd/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/getonbrd/jobs.parquet",
+      "parquet_sha256": "59cb75c3b80eef0b7e3214d3a24aeeb5b161bb147284c9634fd6efc6ae127531",
+      "parquet_size_bytes": 967286,
+      "rows": 1020,
+      "sha256": "89d3123988ef3ef9f4b479d00725353dfb809c79a08cf95967e27420e7acff6a",
+      "size_bytes": 3782416
+    },
+    "google": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/google/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/google/jobs.parquet",
+      "parquet_sha256": "6fde14b3e74740d72d4245f9c713fa67eacb72f4f04980efa04d2fdd259eee25",
+      "parquet_size_bytes": 2519360,
+      "rows": 3597,
+      "sha256": "5494cedc7b59f1276fe63e7e50905b264665ff80e779de66fd17408331f1e166",
+      "size_bytes": 13522060
+    },
+    "greenhouse": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/greenhouse/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/greenhouse/jobs.parquet",
+      "parquet_sha256": "0f8e16d4601e63174549481b8e0a865bdc6215712cb131529b3140bffff065ef",
+      "parquet_size_bytes": 127044173,
+      "rows": 181350,
+      "sha256": "e282e648e01c7eaa7fd49253525430f51e98eefaab32147bb30a4969c0a429c0",
+      "size_bytes": 1112114470
+    },
+    "gupy": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/gupy/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/gupy/jobs.parquet",
+      "parquet_sha256": "030fd4821bbd669462ec431110fd933fda75df752c2d276af17b186389a5ed52",
+      "parquet_size_bytes": 6688609,
+      "rows": 25624,
+      "sha256": "3b4ea6de57502cef99a0f09f3da24fc2b5926d8d539bcc6831adfb4701e098fe",
+      "size_bytes": 75110308
+    },
+    "herp": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/herp/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/herp/jobs.parquet",
+      "parquet_sha256": "1faeff59755d78905549f6b435c43b30cd2e3ab795a0395e1cde89fbe411b164",
+      "parquet_size_bytes": 15412193,
+      "rows": 14348,
+      "sha256": "bc567e39f9048be2e4b881b41404d2b55db8540299145dd5fefb49a65681323e",
+      "size_bytes": 137898288
+    },
+    "hrmos": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/hrmos/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/hrmos/jobs.parquet",
+      "parquet_sha256": "16f81e22dca1ef301d60b77f13f6be133fc1cea6d10eb24d8efd501ba6bb6040",
+      "parquet_size_bytes": 24200058,
+      "rows": 36331,
+      "sha256": "cae2eaca35afb9599afc282b7c8f5163b7679725668c69c41c0542f1ae5599dd",
+      "size_bytes": 141711158
+    },
+    "icims": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/icims/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/icims/jobs.parquet",
+      "parquet_sha256": "a15e9268e5b120b43c1a6846d2b687dab8fe355c051fb9d87786a39f4dfa89a8",
+      "parquet_size_bytes": 26475251,
+      "rows": 220170,
+      "sha256": "6c6632eb4b96da8a4669efa8261ea7caf6bc426118e81a32175477482d87361d",
+      "size_bytes": 309480758
+    },
+    "jazzhr": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/jazzhr/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/jazzhr/jobs.parquet",
+      "parquet_sha256": "4e939bfe7c79c00ef88e5e8121863c4876df385fda5ba7d21faa918551a9a2b7",
+      "parquet_size_bytes": 29339106,
+      "rows": 69725,
+      "sha256": "62af51d98f6224bbed464b3d0a8f401def642eb8fdaefcc1bb59113114f116b1",
+      "size_bytes": 247559551
+    },
+    "jobbankca": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/jobbankca/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/jobbankca/jobs.parquet",
+      "parquet_sha256": "fca44162cbc8ac45e366758b2903becf15d00eb10c370d6a3d644b43d5668ffe",
+      "parquet_size_bytes": 1774376,
+      "rows": 60990,
+      "sha256": "e9a368adcc061833f0fdb00955b2a4b75f55cdbc7ac286ad21fd3b6b937df829",
+      "size_bytes": 23162087
+    },
+    "jobsch": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/jobsch/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/jobsch/jobs.parquet",
+      "parquet_sha256": "32afb042b9e96fcc5545f4f4abd1f0d5de2f8b9907a729d2db0f9985f6a26e10",
+      "parquet_size_bytes": 911203,
+      "rows": 10670,
+      "sha256": "ce04a90b02f4b439680c0891106bbe745875fd944a57167ca0f4292094ea359a",
+      "size_bytes": 4494012
+    },
+    "jobvite": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/jobvite/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/jobvite/jobs.parquet",
+      "parquet_sha256": "2c0857146005ca8ac6c93026c533801d1488bf08af620510619c063d6af27ab3",
+      "parquet_size_bytes": 5483883,
+      "rows": 8687,
+      "sha256": "52ca3cd880a73e1d63d438278fbd6ac1ddd958a34bcb0fbca1ac00407e476656",
+      "size_bytes": 40920735
+    },
+    "join_com": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/join_com/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/join_com/jobs.parquet",
+      "parquet_sha256": "47db685ca101181ff0ddcfd7d9370a3668a73ab7272750a9260af208d6351a38",
+      "parquet_size_bytes": 29628522,
+      "rows": 44203,
+      "sha256": "047136d257f50e13d28015904b1bc3dbd11e32fed8bf35f7a065eb1190888414",
+      "size_bytes": 125255004
+    },
+    "keka": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/keka/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/keka/jobs.parquet",
+      "parquet_sha256": "b9227d5fed8559cdd2368fea9bcc211daab5ffae698a9df1131d35b4807db6b1",
+      "parquet_size_bytes": 2769011,
+      "rows": 4438,
+      "sha256": "2716693afff0d768b48c337c989d17a1c0438a7cc8ad74e29841134d278936ee",
+      "size_bytes": 14213141
+    },
+    "lever": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/lever/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/lever/jobs.parquet",
+      "parquet_sha256": "a4910c31a5c5b1f358820f84c1b1c036d5b881c55a55381620572fa100210e52",
+      "parquet_size_bytes": 40607338,
+      "rows": 70864,
+      "sha256": "23aeba91e49ed79f4577407629fb1524506f11f3e5f279ff181bfb28a453fd4f",
+      "size_bytes": 333926861
+    },
+    "manfred": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/manfred/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/manfred/jobs.parquet",
+      "parquet_sha256": "1e966b4115441698d1d5fea742fda7836e6b4c7c42115ea80ae007c690522fa6",
+      "parquet_size_bytes": 72243,
+      "rows": 20,
+      "sha256": "26bfca8fa60e839ce7abc0c030f5b3373267f4e5ef711b23f30d93d0ef6ea659",
+      "size_bytes": 182871
+    },
+    "mercor": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/mercor/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/mercor/jobs.parquet",
+      "parquet_sha256": "ae23d332b32d74a6109fcada21de6bda481c734c58551f82ca537a0b585c55ff",
+      "parquet_size_bytes": 134729,
+      "rows": 275,
+      "sha256": "02cf0da51defb4addf25121a81dc66f85c7b4b5e225118fe252e85055b678023",
+      "size_bytes": 693559
+    },
+    "meta": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/meta/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/meta/jobs.parquet",
+      "parquet_sha256": "891b86f2c3b66c90ea3d51296c10ef05bd8bfd37b50ec77360ea3c4ea33daf2c",
+      "parquet_size_bytes": 2426,
+      "rows": 0,
+      "sha256": "570cc701747650bee9bc058a5b7f35217194c14fb6dd107cdd22615056729975",
+      "size_bytes": 250
+    },
+    "moka": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/moka/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/moka/jobs.parquet",
+      "parquet_sha256": "46854b7d037342703d1837eb3c1017f02bcab5447b1e6d1f6944c00029c90d51",
+      "parquet_size_bytes": 8337398,
+      "rows": 31743,
+      "sha256": "5beedf8a667d545ba30e9ff6a6a8208b189673e8431ea52db28c6e794585b055",
+      "size_bytes": 43744403
+    },
+    "oracle": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/oracle/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/oracle/jobs.parquet",
+      "parquet_sha256": "59b9dbb305871644194b782be7dd899739d808625032dd71a8527498849f35e7",
+      "parquet_size_bytes": 57959057,
+      "rows": 296978,
+      "sha256": "4c637a6e7936e854336598d95f5d0e65736ea34aefd29a1d0a5079397462e130",
+      "size_bytes": 624238450
+    },
+    "pageup": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/pageup/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/pageup/jobs.parquet",
+      "parquet_sha256": "2a7ab3a3294fcdcf7472b93a36793b1f896e77e3ec129f291f7ed0dab543fb5b",
+      "parquet_size_bytes": 5130686,
+      "rows": 4356,
+      "sha256": "2db57c6aa7e1ced5f141821b94e2dd904947f4c7a623b1438693129dfe6645ce",
+      "size_bytes": 37476923
+    },
+    "paycom": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/paycom/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/paycom/jobs.parquet",
+      "parquet_sha256": "460ea82c432218335a5221c31f64a474e4a74b1a774f9f5896c92a880d22fabf",
+      "parquet_size_bytes": 57000017,
+      "rows": 122386,
+      "sha256": "d1db1e4f9ea57dee765135d80feb07a731e2a96801a8012a76ad50d2facadb66",
+      "size_bytes": 540307735
+    },
+    "paylocity": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/paylocity/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/paylocity/jobs.parquet",
+      "parquet_sha256": "2eaa2305ca6dcce4046b2d31ac0ad3e31939b1242af8ae4ae10a021b0671795d",
+      "parquet_size_bytes": 724551,
+      "rows": 1381,
+      "sha256": "14b75b22f97e480c09f4d632c33f0081399035305f9ee02a55bcfabf105f6d34",
+      "size_bytes": 6145369
+    },
+    "personio": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/personio/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/personio/jobs.parquet",
+      "parquet_sha256": "6fbc91245fe5291d48d028d04ead1e4c00524f043863efc172d04d0646cab381",
+      "parquet_size_bytes": 8596766,
+      "rows": 12780,
+      "sha256": "aace55b857667111a9dc2a21e6e55d04c4738fcffb68ed24460c39860bbfc55a",
+      "size_bytes": 43092573
+    },
+    "phenom": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/phenom/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/phenom/jobs.parquet",
+      "parquet_sha256": "fc7f64b44c79929fb8af244fb6213164cd39f7e86b9154b86f09eb77ab9ca775",
+      "parquet_size_bytes": 9141252,
+      "rows": 130386,
+      "sha256": "1e3f1ee9a76556c1a0035c1254517f005a98cbf19eb801f132bf917a56c53aa7",
+      "size_bytes": 84115788
+    },
+    "pinpoint": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/pinpoint/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/pinpoint/jobs.parquet",
+      "parquet_sha256": "b5983e9b97863486b970b4b576341d3a2d61081f15ec75434becfe67463f50d0",
+      "parquet_size_bytes": 2196619,
+      "rows": 11672,
+      "sha256": "0c244c2e3c727397ea03682d286f8003d2e67bfe99954be66dbdcdea1ad66e6b",
+      "size_bytes": 17129773
+    },
+    "programathor": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/programathor/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/programathor/jobs.parquet",
+      "parquet_sha256": "efd7ae17d526a4f462efd3680883e540636ab3fb515da27ba8f7d46d916e7340",
+      "parquet_size_bytes": 476081,
+      "rows": 5935,
+      "sha256": "87be470ffbb788d4645e1696ab18cc99b5b2ac72c2acd6e2e406abe41046b94e",
+      "size_bytes": 2966996
+    },
+    "recruitee": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/recruitee/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/recruitee/jobs.parquet",
+      "parquet_sha256": "d94c06594c96709a827492809c8c061e5a73bdce2efde7d330cf9f23205afe51",
+      "parquet_size_bytes": 12027477,
+      "rows": 16952,
+      "sha256": "8fd4b55901ff3bc9d074b357865a157a3c924421e6f8598510631c51deff3f06",
+      "size_bytes": 62556626
+    },
+    "recruiterbox": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/recruiterbox/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/recruiterbox/jobs.parquet",
+      "parquet_sha256": "b6b8bc96420b8442a6fe85719d30fe5c01afb5a7141c447bdb438a542d2d030f",
+      "parquet_size_bytes": 2563976,
+      "rows": 5968,
+      "sha256": "32ce3bbe930d2870e8fb49cacd483aa763e5d60a9639c3b50a8c2a939132a367",
+      "size_bytes": 20312564
+    },
+    "remoteok": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/remoteok/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/remoteok/jobs.parquet",
+      "parquet_sha256": "d4e83ba595a26c1b91bd6dc7c66269f6362a710d6c721f3b9a7ce3d09daeca32",
+      "parquet_size_bytes": 70652,
+      "rows": 100,
+      "sha256": "05dfe300d70a04d8784d231346b72d7d5139c19bf7129a7326f7623179e251a8",
+      "size_bytes": 176182
+    },
+    "rippling": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/rippling/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/rippling/jobs.parquet",
+      "parquet_sha256": "4cf245d319240556aaea15835850ab4e9fc4cafb0a27bcb772a2dd2d8b80ee27",
+      "parquet_size_bytes": 11780776,
+      "rows": 13912,
+      "sha256": "ef9b58dc1c93155453e19cd398edbf18875d8cbfbd04d5518c90efd4f430b0f8",
+      "size_bytes": 71170897
+    },
+    "smartrecruiters": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/smartrecruiters/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/smartrecruiters/jobs.parquet",
+      "parquet_sha256": "362b742f6b324019bea556165452e5f0b5a06b8f03eea731c8d59c140dae639a",
+      "parquet_size_bytes": 119543624,
+      "rows": 243308,
+      "sha256": "d854a3815b0484210b3ec0e71f9c2de5e345d574a8878f77f93cd6dc9d4c6bfa",
+      "size_bytes": 1375894546
+    },
+    "softgarden": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/softgarden/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/softgarden/jobs.parquet",
+      "parquet_sha256": "46fd8755fc62ce5b0c4943617406641ba22a6e92f4cb4c5a66d7bce879189160",
+      "parquet_size_bytes": 7988809,
+      "rows": 20141,
+      "sha256": "bbfcadb77ece2718facc59ffef0fb4c7d302779a22a9d46af69263860bac6c38",
+      "size_bytes": 68228085
+    },
+    "successfactors": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/successfactors/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/successfactors/jobs.parquet",
+      "parquet_sha256": "01b1572ecf181525c9c97f9eb76ba400db0740b2fa44493d8a1df5d65f9d1439",
+      "parquet_size_bytes": 171670146,
+      "rows": 320799,
+      "sha256": "f2b5f8a8f1a682d97afeff7ed730024530344551a6065434007b76b7deb96ab8",
+      "size_bytes": 1340533183
+    },
+    "taleo": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/taleo/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/taleo/jobs.parquet",
+      "parquet_sha256": "5f50d10e69e91e61755fa3df046976cdee5cd9792aa8c72f6652dd2ad92b5943",
+      "parquet_size_bytes": 816067,
+      "rows": 1209,
+      "sha256": "6bc3cdb878aee2bac56ff5894b791f08145bc31636439da2885bc92bc3e6ccc6",
+      "size_bytes": 4045991
+    },
+    "teamtailor": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/teamtailor/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/teamtailor/jobs.parquet",
+      "parquet_sha256": "d996d51d8e98989dab4fcbc7b1fdd81d67d12c149d77647ddb035f3f5c80c957",
+      "parquet_size_bytes": 11879105,
+      "rows": 17144,
+      "sha256": "59478dfaec0247670947580ddc956d8b43732c31102f618470c04496496061ee",
+      "size_bytes": 60530795
+    },
+    "tesla": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/tesla/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/tesla/jobs.parquet",
+      "parquet_sha256": "77d92efddb105379fc57ac183a958089320178d5aacaae68081b5f3edd784927",
+      "parquet_size_bytes": 5092016,
+      "rows": 6839,
+      "sha256": "704140dbf65ab0db936fff9220a1616241bac3bb6911373e8909c4542d7d4661",
+      "size_bytes": 28065606
+    },
+    "thehub": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/thehub/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/thehub/jobs.parquet",
+      "parquet_sha256": "8492d6f9be5ffb8a41ff12e33237ec5ffc1e7494e9f02ec8be70a1e980efd154",
+      "parquet_size_bytes": 75745,
+      "rows": 48,
+      "sha256": "b5c8f2f28bdf79e10ac9420590b91a76bd82fd58f305af61294a22e927d7cd13",
+      "size_bytes": 212284
+    },
+    "tiktok": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/tiktok/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/tiktok/jobs.parquet",
+      "parquet_sha256": "71a8905ee8f17407db6efb59bf0062afd0d5ac62324fcbe809392458b28bc6b4",
+      "parquet_size_bytes": 2679082,
+      "rows": 3893,
+      "sha256": "c38a22a4ddd2e02db45df5f098a9c78b769fc02d0c611fbd749f2ff424c24485",
+      "size_bytes": 14247676
+    },
+    "uber": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/uber/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/uber/jobs.parquet",
+      "parquet_sha256": "7e0e4bbe4c0771106ab166fe888654eb3070e927dbce743d189d877bdd0f54a1",
+      "parquet_size_bytes": 42268,
+      "rows": 669,
+      "sha256": "08a1c7d5480750f611b144af6617cbe145d5e6dd09fd2a62fa6ae7e6e9df3f8a",
+      "size_bytes": 347277
+    },
+    "ukg": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/ukg/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/ukg/jobs.parquet",
+      "parquet_sha256": "5a0c90c31c82425764cee57c7cbc5efe9f1622793334d8249ada581f5466c331",
+      "parquet_size_bytes": 5963056,
+      "rows": 10360,
+      "sha256": "5dcaf9332d75aa293665983dd10c0946c3bd7b1ba12a66db0b60b09d0a719733",
+      "size_bytes": 47018005
+    },
+    "wanted": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/wanted/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/wanted/jobs.parquet",
+      "parquet_sha256": "3a92c43aa0080d31fb8df7d6ae334448da0f07fad9c78f07dcc2b7956ac8390e",
+      "parquet_size_bytes": 13029157,
+      "rows": 11444,
+      "sha256": "35681939dbf7aefcd829cb609d20c877f026e614d8e957441eb8ba24d68f4912",
+      "size_bytes": 49978077
+    },
+    "welcometothejungle": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/welcometothejungle/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/welcometothejungle/jobs.parquet",
+      "parquet_sha256": "03ab2a7c9939be73983f3d29e45435338451f4d1d5322a7ae7b5a789cf50b72b",
+      "parquet_size_bytes": 43897902,
+      "rows": 88611,
+      "sha256": "3e2f11a0866513c9306bbc5b4e09ebf82d0b751183acd9bcb2fc7c2fbb67c893",
+      "size_bytes": 189161245
+    },
+    "wellfound": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/wellfound/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/wellfound/jobs.parquet",
+      "parquet_sha256": "ef15ef56a92efd35fb58e2073ddccd574d04b550d008b155113e06cb04e829d5",
+      "parquet_size_bytes": 28505,
+      "rows": 348,
+      "sha256": "fd6b6f7ce33fcf8cb6296d8837551e07e312b1eda2e24a5ab12be6cd87e4ce25",
+      "size_bytes": 78427
+    },
+    "weworkremotely": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/weworkremotely/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/weworkremotely/jobs.parquet",
+      "parquet_sha256": "33a49e93c7dfec05e7a6411112bd34d03a976dfb492d4097631e03a035ac6790",
+      "parquet_size_bytes": 1069641,
+      "rows": 768,
+      "sha256": "f22fec58c1cbb33f8f13c497aa120579b6f15a2739353a62c75905794b2f6c48",
+      "size_bytes": 4385554
+    },
+    "workable": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/workable/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/workable/jobs.parquet",
+      "parquet_sha256": "2142041b5811486627f5d475ede4df5368b506c559cab0574fdb609ec950549a",
+      "parquet_size_bytes": 5918201,
+      "rows": 23968,
+      "sha256": "87fee9cc52e67aab7e051d8e1042d540d37cc3f9d9459c54633d2035288d6c80",
+      "size_bytes": 39456942
+    },
+    "workday": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/workday/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/workday/jobs.parquet",
+      "parquet_sha256": "3308e83452ba3fbbea42ce04b6bfc3315854c474205a4c3b683f92651d9ab053",
+      "parquet_size_bytes": 476898424,
+      "rows": 839633,
+      "sha256": "94d4d2995d8765fbd09b00bf6ac5f288db7d1e2aba08fec9151fb78be23c5310",
+      "size_bytes": 4552453090
+    },
+    "ycombinator": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/ycombinator/jobs.csv",
+      "parquet": "https://storage.stapply.ai/jobhive/v1/ycombinator/jobs.parquet",
+      "parquet_sha256": "c476c0e00ad7a35c0ae8c03ef2c25340b661038318b409af60b329b6155c142d",
+      "parquet_size_bytes": 245153,
+      "rows": 3419,
+      "sha256": "12a35975cbef248f68a9398e144267bd3b6cd564f51402886a4a0977403e85b9",
+      "size_bytes": 2417170
+    }
+  },
+  "by_ats_companies": {
+    "adp": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/adp/companies.csv",
+      "rows": 342,
+      "sha256": "f0f98faf73bfd2d6917391808e9869d5b77816768e63bb7944dfa36a189ff53c",
+      "size_bytes": 76444
+    },
+    "ashby": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/ashby/companies.csv",
+      "rows": 3448,
+      "sha256": "894740f0531bbd721d00954bc9adae791c114e5b796be2506f0802d877b6ad8e",
+      "size_bytes": 188004
+    },
+    "avature": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/avature/companies.csv",
+      "rows": 126,
+      "sha256": "b03d4ae85fce85228cfe6ed73f89df5fc5d44503fa74f0fbe9cb2b68513f000c",
+      "size_bytes": 9122
+    },
+    "bamboohr": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/bamboohr/companies.csv",
+      "rows": 5632,
+      "sha256": "850219f465a2bb6766242d07f28c91d7fd7c7391781f066d7e77cdde5dd5e50c",
+      "size_bytes": 299207
+    },
+    "beisen": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/beisen/companies.csv",
+      "rows": 221,
+      "sha256": "8ea49a7139c905a1faf5a2bfdcb55c983b988e77df7abe427c61fd05d0c2b056",
+      "size_bytes": 11442
+    },
+    "beisen_legacy": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/beisen_legacy/companies.csv",
+      "rows": 8,
+      "sha256": "deae5f0980c6b8f6c989994f9e04ec1bb0a679d71f7c5d66b92f6fab43dfc274",
+      "size_bytes": 517
+    },
+    "breezy": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/breezy/companies.csv",
+      "rows": 1384,
+      "sha256": "9138ab33944974f3a7c6b7d32a5c2a97c2b0c8f00cf5f517b75b32e5ca127ab7",
+      "size_bytes": 84407
+    },
+    "bytedance": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/bytedance/companies.csv",
+      "rows": 1,
+      "sha256": "0fa8d924ce9199c4b6c789b94706c0a858f9ebda756f8cd421d28bb712bc49b6",
+      "size_bytes": 60
+    },
+    "cornerstone": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/cornerstone/companies.csv",
+      "rows": 564,
+      "sha256": "7f5bb902497068eb01b0a00c9fb9abfe986d8ea07abfb3259eb33fb015c1cbbb",
+      "size_bytes": 61615
+    },
+    "darwinbox": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/darwinbox/companies.csv",
+      "rows": 163,
+      "sha256": "9dd0f979964856cb707084dd784e84d69bef36ca1067a0be3e7387202342d628",
+      "size_bytes": 12982
+    },
+    "dayforce": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/dayforce/companies.csv",
+      "rows": 348,
+      "sha256": "3b55eeda5266c68b6fac06a711872265fd89b8af3c6917b959cd153fa525ea8e",
+      "size_bytes": 34435
+    },
+    "eightfold": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/eightfold/companies.csv",
+      "rows": 83,
+      "sha256": "5c40915d533345e10a7f62d1d32fde2d315b79392ef0692952f147289b8baf94",
+      "size_bytes": 5157
+    },
+    "gem": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/gem/companies.csv",
+      "rows": 496,
+      "sha256": "b2da8bd82c1ff410dac7d593a1414c7c72478cd5d28ce159ec41e2b8117c1a41",
+      "size_bytes": 27825
+    },
+    "greenhouse": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/greenhouse/companies.csv",
+      "rows": 6031,
+      "sha256": "210c8d2211b2e1b8014ba7bb03b62f5f528440cbe7371b4d084ef308285f2ff4",
+      "size_bytes": 426678
+    },
+    "gupy": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/gupy/companies.csv",
+      "rows": 589,
+      "sha256": "c71677b49344cf8021d68dcc198c16c5e806f2bc51d3d5e45f97fd5a1a7bbc3c",
+      "size_bytes": 30011
+    },
+    "herp": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/herp/companies.csv",
+      "rows": 969,
+      "sha256": "99269f59bff961a11a1fdf46f6092d99d075dc535ca0008a0bf9a67ca58251b5",
+      "size_bytes": 65712
+    },
+    "hrmos": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/hrmos/companies.csv",
+      "rows": 960,
+      "sha256": "7499b97868a96067ad9256ededbd0214ae960fa5d3c951f6aba469f1d9553768",
+      "size_bytes": 77329
+    },
+    "icims": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/icims/companies.csv",
+      "rows": 2498,
+      "sha256": "e6f7af1005daa40480542ee9cfbc8fdfb81609b564b7571f04d3e49d74b0817a",
+      "size_bytes": 201303
+    },
+    "infojobs_es": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/infojobs_es/companies.csv",
+      "rows": 1,
+      "sha256": "91c60a7f68e156aa6e006cd911783900e9d00f78f3460e6f6f92d8043d5c201d",
+      "size_bytes": 66
+    },
+    "jazzhr": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/jazzhr/companies.csv",
+      "rows": 2689,
+      "sha256": "b1d6652a4fdbdd59858282ce8fb66f8d46bd88fd9830d049eb72322f478700a7",
+      "size_bytes": 180632
+    },
+    "jobbankca": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/jobbankca/companies.csv",
+      "rows": 1,
+      "sha256": "c651ae47e86e5eca7d0c4d84cc6f597b1f7523d396a74bb1700f67b3b080c02d",
+      "size_bytes": 66
+    },
+    "jobs_cz": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/jobs_cz/companies.csv",
+      "rows": 1,
+      "sha256": "2ac53f22f09e65e72ab5095837d926f31d49d63b0fd53f9941e8386d88a8ee06",
+      "size_bytes": 50
+    },
+    "jobvite": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/jobvite/companies.csv",
+      "rows": 92,
+      "sha256": "c1d5d40f921b18c5f41dc4df334e28c95667aa8067dd2b2cd3a46b7debcb0a00",
+      "size_bytes": 6055
+    },
+    "join_com": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/join_com/companies.csv",
+      "rows": 23547,
+      "sha256": "74657f6287e81c94894c7df78925605d4e0e8edd6673304937756c2e4bc17cf8",
+      "size_bytes": 1794567
+    },
+    "keka": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/keka/companies.csv",
+      "rows": 185,
+      "sha256": "47da89619584d158b8c7736c14352751dff658927820acfed07592f5a1e3d82e",
+      "size_bytes": 9764
+    },
+    "lever": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/lever/companies.csv",
+      "rows": 2402,
+      "sha256": "5e86a47e6b34b18fb08e47f10641480d39f022fb561f7f80f5631aed140a4442",
+      "size_bytes": 135214
+    },
+    "mercor": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/mercor/companies.csv",
+      "rows": 1,
+      "sha256": "6b45dce726019da9227166e7eb6f6707516c995b5c7411f0f512f10db228fb7e",
+      "size_bytes": 52
+    },
+    "moka": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/moka/companies.csv",
+      "rows": 198,
+      "sha256": "e3a451ceab69a2b6e723b7ef026b132dbdec7956b64bcbade9cfd9a3cbbefa5f",
+      "size_bytes": 16616
+    },
+    "oracle": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/oracle/companies.csv",
+      "rows": 1279,
+      "sha256": "f7e1597ac7122a5c9e6f8fbc87f427d5a131723c5cd31022227f8d6bf2af5f6c",
+      "size_bytes": 140987
+    },
+    "pageup": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/pageup/companies.csv",
+      "rows": 21,
+      "sha256": "160ca4ed158267060847f91339fef3005fd9510171efc11a3c24e2bde37fcf6d",
+      "size_bytes": 1748
+    },
+    "paycom": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/paycom/companies.csv",
+      "rows": 5135,
+      "sha256": "c3f27d0c9109680d0f6f8a3dd5b496fd6a7fe2c7d488e70bd11aa56df3944a6f",
+      "size_bytes": 784974
+    },
+    "paylocity": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/paylocity/companies.csv",
+      "rows": 48,
+      "sha256": "1b63163470e240aad141b44373b4f29175e029980855da00d393cb408f6a9367",
+      "size_bytes": 7294
+    },
+    "personio": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/personio/companies.csv",
+      "rows": 2463,
+      "sha256": "4620de6ebf21c8f77b667c48383ca0727789071eb1b09591a06e59a14ab4ea79",
+      "size_bytes": 133695
+    },
+    "phenom": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/phenom/companies.csv",
+      "rows": 98,
+      "sha256": "ce14ab9d94eac61f3073182c87b34289d0cc61dc9829251fdbfa372180d08f2f",
+      "size_bytes": 4790
+    },
+    "pinpoint": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/pinpoint/companies.csv",
+      "rows": 406,
+      "sha256": "924a72c002d2891f78bea7ac96b8111445eaeb435aa18798efb8224f9cf4c756",
+      "size_bytes": 24516
+    },
+    "recruitee": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/recruitee/companies.csv",
+      "rows": 1164,
+      "sha256": "d861b6d6247f1a49dde06db203db0c8364537a9f2dfce539ad2cbdea8961d587",
+      "size_bytes": 73466
+    },
+    "recruiterbox": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/recruiterbox/companies.csv",
+      "rows": 314,
+      "sha256": "8bafe93ce616517b7e4e43a6e9ae628b71c550a2a8ee6997a684de7bbfd2d22a",
+      "size_bytes": 20997
+    },
+    "rippling": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/rippling/companies.csv",
+      "rows": 1923,
+      "sha256": "2dc647af8fe3ef3395c2ba061db117fd69c6eedc68a5ea1bf1d1cc2a78c84e97",
+      "size_bytes": 135692
+    },
+    "seek": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/seek/companies.csv",
+      "rows": 8,
+      "sha256": "35ce63f0d1e15c5ce863d0bb48225de4d7e2c8e6b9ed9b71698a077d56dea496",
+      "size_bytes": 375
+    },
+    "smartrecruiters": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/smartrecruiters/companies.csv",
+      "rows": 2747,
+      "sha256": "6ab1b2491a473d2a81958ab228edcc15f72367f0f8c587cabb01b315036f5106",
+      "size_bytes": 202495
+    },
+    "softgarden": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/softgarden/companies.csv",
+      "rows": 392,
+      "sha256": "a8a4f8ef778936545d82ea6dc481f40c0330adb1a8a5f4fa5dd55d46f8c65bd2",
+      "size_bytes": 33848
+    },
+    "successfactors": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/successfactors/companies.csv",
+      "rows": 1392,
+      "sha256": "b5892ba1bb9a5fe37aa15a874991b3bfbec96f18861273ba80e8d34d6466dcbe",
+      "size_bytes": 78280
+    },
+    "taleo": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/taleo/companies.csv",
+      "rows": 167,
+      "sha256": "86ed2b93b976abd950e2a7187ff917a3a5f7347589001006f3becc20055fdd31",
+      "size_bytes": 30303
+    },
+    "teamtailor": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/teamtailor/companies.csv",
+      "rows": 1464,
+      "sha256": "d74ab81de7400418331bcffbffdc878ccafaf88440c473613dde1fd8c597f291",
+      "size_bytes": 89389
+    },
+    "ukg": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/ukg/companies.csv",
+      "rows": 107,
+      "sha256": "2540c71a6849ea79d2ce5af44f0db1359215442c75b40978c2b96cf5345d4316",
+      "size_bytes": 21045
+    },
+    "workable": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/workable/companies.csv",
+      "rows": 4268,
+      "sha256": "95141f480c2f04ed207d5eedb632410e4d6657d9d2461a9156289baeea0a619c",
+      "size_bytes": 287716
+    },
+    "workday": {
+      "csv": "https://storage.stapply.ai/jobhive/v1/workday/companies.csv",
+      "rows": 3530,
+      "sha256": "7910b37be933bd42fb2c07e0f95e404d3a8980534e3be576c48b92d02074d5f8",
+      "size_bytes": 316257
+    }
+  },
+  "companies": {
+    "csv": "https://storage.stapply.ai/jobhive/v1/companies.csv",
+    "parquet": "https://storage.stapply.ai/jobhive/v1/companies.parquet",
+    "parquet_sha256": "80b750e32a9279f606492f1860a5a7a50fb1b5d51fc1c8270cb774266679a33d",
+    "parquet_size_bytes": 3382620,
+    "rows": 79906,
+    "sha256": "a746aec8e7d209456da73e08be041c5ef06e815c6a44b9d3467692870fa5ac13",
+    "size_bytes": 6831272
+  },
+  "generated_at": "2026-08-07T14:30:05.266039+00:00",
+  "generator": "ats-scrapers/0.2.0",
+  "stats": {
+    "ats_count": 65,
+    "schema_columns": [
+      "url",
+      "title",
+      "company",
+      "ats_type",
+      "ats_id",
+      "location",
+      "country_iso",
+      "region",
+      "language",
+      "lat",
+      "lon",
+      "is_remote",
+      "salary_min",
+      "salary_max",
+      "salary_currency",
+      "salary_period",
+      "salary_summary",
+      "employment_type",
+      "department",
+      "team",
+      "description",
+      "posted_at",
+      "requisition_id",
+      "apply_url",
+      "commitment",
+      "raw"
+    ],
+    "schema_version": "2.0",
+    "total_companies": 79906,
+    "total_jobs": 4854656,
+    "total_jobs_raw": 5017141
+  },
+  "updated_at": "2026-08-07T14:30:05Z",
+  "version": "2.0"
+}

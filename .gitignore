@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Large data files -- these are multi-GB and shouldn't be pushed to GitHub.
+# Anyone cloning this repo needs to download PDL's dataset themselves and
+# run their own scraper pulls -- see README for setup instructions.
+*.csv
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output artifacts from ad-hoc scripts (charts, etc.) -- regenerate as needed
+*.png
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
