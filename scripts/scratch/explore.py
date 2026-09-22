@@ -1,6 +1,14 @@
+from pathlib import Path
+
 import pandas as pd
 
-jobs = pd.read_csv("job_sample.csv")
+# Project root is two levels up from scripts/scratch/ -- makes paths work
+# no matter what directory this is run from.
+ROOT = Path(__file__).resolve().parent.parent.parent
+DATA_RAW = ROOT / "data" / "raw"
+DATA_RESULTS = ROOT / "data" / "results"
+
+jobs = pd.read_csv(DATA_RAW / "job_sample.csv")
 target_companies = jobs["company"].dropna().unique()
 print(f"Unique companies in job sample: {len(target_companies)}")
 
@@ -15,7 +23,7 @@ target_df["clean_name"] = normalize_fast(target_df["company"])
 target_set = set(target_df["clean_name"])
 
 matched_rows = []
-chunks = pd.read_csv("free_company_dataset.csv", usecols=["name", "website", "size", "industry"], chunksize=500_000)
+chunks = pd.read_csv(DATA_RAW / "free_company_dataset.csv", usecols=["name", "website", "size", "industry"], chunksize=500_000)
 for chunk in chunks:
     chunk["clean_name"] = normalize_fast(chunk["name"])
     hits = chunk[chunk["clean_name"].isin(target_set)]
@@ -32,4 +40,4 @@ print(f"Unmatched ({len(unmatched)}):")
 for name in sorted(unmatched):
     print(" -", name)
 
-matched.to_csv("matched_companies.csv", index=False)
+matched.to_csv(DATA_RESULTS / "matched_companies.csv", index=False)

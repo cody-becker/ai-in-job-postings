@@ -13,11 +13,18 @@ size buckets.
 
 Run:
     pip install matplotlib --break-system-packages   # if not already installed
-    python plot_size_distribution.py
+    python scripts/scratch/plot_size_distribution.py
 """
+
+from pathlib import Path
 
 import pandas as pd
 import matplotlib.pyplot as plt
+
+# Project root is two levels up from scripts/scratch/ -- makes paths work
+# no matter what directory this is run from.
+ROOT = Path(__file__).resolve().parent.parent.parent
+DATA_RESULTS = ROOT / "data" / "results"
 
 # The real bucket order, smallest to largest -- same ordering used
 # elsewhere in the project for SIZE_ORDER/SIZE_RANK.
@@ -32,7 +39,7 @@ SIZE_ORDER = [
     "10001+",
 ]
 
-df = pd.read_csv("size_counts.csv")
+df = pd.read_csv(DATA_RESULTS / "size_counts.csv")
 
 # size_counts.csv was built from the unfiltered size column, so it's full
 # of corrupted-row garbage (city names, LinkedIn URLs, text fragments).
@@ -59,7 +66,8 @@ for i, count in enumerate(df["count"]):
 
 plt.xticks(rotation=30, ha="right")
 plt.tight_layout()
-plt.savefig("size_distribution.png", dpi=150)
+CHART_PATH = DATA_RESULTS / "size_distribution.png"
+plt.savefig(CHART_PATH, dpi=150)
 plt.show()
 
-print("Saved chart to size_distribution.png")
+print(f"Saved chart to {CHART_PATH}")

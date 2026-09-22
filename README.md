@@ -32,9 +32,9 @@ PDL aggregates from public web sources and third-party datasets rather than dire
 
 **Entity resolution (job posting company name → PDL company record) is the current focus.**
 
-- Normalizer strips legal suffixes (`inc`, `llc`, `gmbh`, `ag`, `sarl`, etc.) using word-boundary matching, run *before* whitespace collapse (see `tests/normalize_check.py`).
+- Normalizer strips legal suffixes (`inc`, `llc`, `gmbh`, `ag`, `sarl`, etc.) using word-boundary matching, run *before* whitespace collapse (see `scripts/scratch/normalize_check.py`).
 - ~834 PDL rows have corrupted `size` values due to a CSV quoting issue upstream; filtered out (`~0.002%` of the file — negligible).
-- Large/multinational companies (e.g. Walmart) are *fragmented* across many PDL rows (regional subsidiaries, business units), not missing. Resolved via prefix-match + max-size-bucket across all matching candidates (see `tests/prefix_match_check.py`).
+- Large/multinational companies (e.g. Walmart) are *fragmented* across many PDL rows (regional subsidiaries, business units), not missing. Resolved via prefix-match + max-size-bucket across all matching candidates (see `prefix_match()` in `scripts/run_real_match.py`).
 - Short slugs (e.g. `2k`, `2u`) that prefix-match many unrelated candidates are flagged for manual review rather than auto-resolved, to avoid false positives.
 
 **Latest real match rate** (44 unique companies from an initial 300-posting Greenhouse "engineer" search, matched against the full PDL file):
@@ -64,12 +64,17 @@ venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 ```
 
-You'll need your own copy of PDL's free bulk company dataset (signup required) and to run your own `ats-scrapers` pulls — these files are not included in this repo (see `.gitignore`) due to size and redistribution terms.
+You'll need your own copy of PDL's free bulk company dataset (signup required) and to run your own `ats-scrapers` pulls — these files are not included in this repo (see `.gitignore`) due to size and redistribution terms. Drop them into `data/raw/` (e.g. `data/raw/free_company_dataset.csv`, `data/raw/job_sample_scaled_v4.csv`) and the scripts will pick them up from there.
 
 ## Project structure
 
 ```
-src/          reusable pipeline code (normalizer, matching logic, pipeline runner)
-tests/        sanity-check scripts with hand-built known-answer test cases
-scripts/      one-off exploratory/diagnostic scripts
+data/raw/         original pulled datasets (PDL bulk company file, ATS job-posting pulls)
+data/cache/       PDL/matching cache files, rebuilt automatically if deleted
+data/results/     matching and classification outputs
+scripts/          the real pipeline: pull_data.py, run_real_match.py, ai_detection.py,
+                  classify_and_join.py, fuzzy_match_leftovers.py
+scripts/scratch/  one-off exploratory/diagnostic scripts
 ```
+
+All scripts resolve paths relative to the project root (via `Path(__file__)`), so they can be run either from the repo root (`python scripts/run_real_match.py`) or from within their own directory.
